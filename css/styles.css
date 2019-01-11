@@ -5,23 +5,49 @@ body {
 }
 
 h1 {
-  margin-top: 0px;
-  font-size: 562.5%;
-  color: #769fcd;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
+  color: #005691;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #005691;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #004a7c;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #004a7c;
+}
+
+hr {
+  border-style: none;
+  border-color: #e8f1f5;
+  border-width: 7px;
+  border-top-style: dotted;
+  width: 10%;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
 }
 
 .topContainer {
   padding-top: 100px;
-  background-color: #f7fbfc;
+  background-color: #fafafa;
   position: relative;
 }
 
@@ -37,18 +63,40 @@ h3 {
   bottom: 300px;
 }
 
-.middleContainer {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.profilePic {
+  height: 160px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.programmerSubtitle {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.iphonePic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computerPic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
 .bottomContainer {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+  background-color: #004a7c;
 }
-
-.pro {
-  text-decoration: underline;
+.footerLink{
+  margin: 20px;
+  color: #e8f1f5;
+  font-weight: normal;
 }
